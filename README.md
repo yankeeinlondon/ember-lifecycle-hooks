@@ -11,6 +11,8 @@ When switching to the Glimmer rendering engine I kept finding myself referring b
 
 I created this visual from MindNode (which is currently my favorite mindmapping program on the Mac) but since not everyone has this here are a few other formats that you can collaborate on (I can translate PR's to all formats):
 
+- [MindNode 2](https://raw.githubusercontent.com/ksnyde/ember-lifecycle-hooks/master/ember-lifecycle-hooks.mindnode)
+- [MindNode 1](https://raw.githubusercontent.com/ksnyde/ember-lifecycle-hooks/master/ember-lifecycle-hooks-1.mindnode)
 - [Freenode Mindmap](https://raw.githubusercontent.com/ksnyde/ember-lifecycle-hooks/master/ember-lifecycle-hooks.mm)
 - [OPML](https://raw.githubusercontent.com/ksnyde/ember-lifecycle-hooks/master/ember-lifecycle-hooks.opml)
 - [PDF](https://raw.githubusercontent.com/ksnyde/ember-lifecycle-hooks/master/ember-lifecycle-hooks.pdf) (just add annotations if you want to send updates in this format)
