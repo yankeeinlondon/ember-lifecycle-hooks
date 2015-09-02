@@ -1,0 +1,1585 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"chart",
+				"chart"
+			],
+			[
+				"ele",
+				"elementId	(donut-chart.js)"
+			],
+			[
+				"int",
+				"internalProps"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"_init",
+				"_initateDynamicObservers"
+			],
+			[
+				"will",
+				"willDestroyElement	(shared-item-mixin.js)"
+			],
+			[
+				"sortable",
+				"sortable-list.js"
+			],
+			[
+				"_aspe",
+				"_aspectPanes"
+			],
+			[
+				"Action",
+				"actionHandler"
+			],
+			[
+				"paneA",
+				"paneAction"
+			],
+			[
+				"f",
+				"folders"
+			],
+			[
+				"class",
+				"classNameBindings"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Volumes/PEGASUS/repos/mine/ui-chart/addon/d3/README.md",
+			"settings":
+			{
+				"buffer_size": 956,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Local:    develop /Volumes/PEGASUS/repos/mine/ui-chart\nHead:     a937c28 added rough line chart\n\n\nUntracked files:\n	addon/components/base-chart.js\n	addon/components/likard-scale.js\n	addon/components/packed-bubble.js\n	addon/components/scatter-plot.js\n	addon/components/tree-graph.js\n	addon/d3/README.md\n	addon/d3/likard-scale-mixin.js\n	addon/d3/packed-bubble-mixin.js\n	addon/d3/scatter-plot-mixin.js\n	addon/d3/tree-graph-mixin.js\n	addon/templates/components/base-chart.hbs\n	addon/templates/components/likard-scale.hbs\n	addon/templates/components/packed-bubble.hbs\n	addon/templates/components/scatter-plot.hbs\n	addon/templates/components/tree-graph.hbs\n	app/components/base-chart.js\n	app/components/likard-scale.js\n	app/components/packed-bubble.js\n	app/components/scatter-plot.js\n	app/components/tree-graph.js\n	public/demo-data/likard.json\n	public/demo-data/simple-flare.json\n	tests/integration/components/base-chart-test.js\n	tests/integration/components/likard-scale-test.js\n	tests/integration/components/packed-bubble-test.js\n	tests/integration/components/scatter-plot-test.js\n	tests/integration/components/tree-graph-test.js\n\nChanges:\n	Modified   .travis.yml\n	Deleted    addon/components/diverging-bar-chart.js\n	Modified   addon/components/line-chart.js\n	Modified   addon/components/stacked-area-chart.js\n	Modified   addon/components/tree-map.js\n	Modified   addon/d3/line-chart-mixin.js\n	Modified   addon/d3/tree-map-mixin.js\n	Deleted    addon/templates/components/diverging-bar-chart.hbs\n	Deleted    app/components/diverging-bar-chart.js\n	Modified   public/demo-data/diverging-bar-chart-model.json\n	Modified   tests/dummy/app/templates/application.hbs\n	Deleted    tests/integration/components/diverging-bar-chart-test.js\n	Modified   tests/integration/components/line-chart-test.js\n	Modified   tests/integration/components/stacked-area-chart-test.js\n	Modified   vendor/ui-chart/ui-chart.css\n\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
+			"settings":
+			{
+				"buffer_size": 2654,
+				"line_ending": "Unix",
+				"name": "*git-status*: ui-chart",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/JSHint/JSHint.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/JSHint/JSHint.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 335.0,
+		"last_filter": "status",
+		"selected_items":
+		[
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"mark",
+				"Marked"
+			],
+			[
+				"dumm",
+				"DummyData: Generate DummyData"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"dmm",
+				"DummyData: Generate DummyData"
+			],
+			[
+				"data",
+				"DummyData: Generate DummyData"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"stree",
+				"SourceTree: Open SourceTree"
+			],
+			[
+				"feature",
+				"Git-flow: Feature Start"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"vor",
+				"Set Syntax: JSON (Vorhees Theme)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"key",
+				"FindKeyConflicts: All Key Maps to Quick Panel"
+			],
+			[
+				"gener",
+				"DummyData: Generate DummyData"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"npm",
+				"Snippet: adds files and main sections to NPM package definition"
+			],
+			[
+				"ember",
+				"Snippet: Ember Project Configuration"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"orgright",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"handl",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"stats",
+				"Git: Status"
+			],
+			[
+				"orright",
+				"Origami: Destroy Pane on the Right"
+			],
+			[
+				"snipp",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"finis",
+				"Git-flow: Release Finish"
+			],
+			[
+				"rele",
+				"Git-flow: Release Finish"
+			],
+			[
+				"flow",
+				"Git-flow: Feature Finish"
+			],
+			[
+				"statu",
+				"Git: Status"
+			],
+			[
+				"swap",
+				"BracketHighlighter: Swap Quotes"
+			],
+			[
+				"orgde",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"quote",
+				"BracketHighlighter: Swap Quotes"
+			],
+			[
+				"col",
+				"Color Picker"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"hand",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"make sn",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"snippet:",
+				"Snippet: Ember Project Configuration"
+			],
+			[
+				"snippet",
+				"SnippetManager: List"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"php",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
+				"intsal",
+				"Package Control: Install Package"
+			],
+			[
+				"jshin",
+				"JSHint: Set Plugin Options"
+			],
+			[
+				"high",
+				"BracketHighlighter: Select Bracket Content with Brackets"
+			],
+			[
+				"o",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"destory",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"focus righ",
+				"Origami: Focus on Pane on the Right"
+			],
+			[
+				"orgam",
+				"Origami: Destroy Pane Below"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"align",
+				"Preferences: Alignment File Settings – User"
+			],
+			[
+				"source",
+				"SourceTree: Open SourceTree"
+			],
+			[
+				"marked",
+				"Marked"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git qa",
+				"Git: Quick Add"
+			],
+			[
+				"git com",
+				"Git: Quick Commit"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packlist",
+				"Package Control: List Packages"
+			],
+			[
+				"pack ",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack list",
+				"Package Control: Remove Repository"
+			],
+			[
+				"build",
+				"Build: Cancel"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"packinstal",
+				"Package Control: Install Package"
+			],
+			[
+				"gitlic",
+				"SublimeGit: Add License"
+			],
+			[
+				"gitstat",
+				"Git: Status"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: pat",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 358.0,
+		"history":
+		[
+			"clear",
+			"install EditorConfig",
+			"install package ",
+			"ls",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"install ",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/PEGASUS/repos/mine/ember-lifecycle-hooks"
+	],
+	"file_history":
+	[
+		"/Users/Ken/Library/Application Support/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/addon/d3/line-chart-mixin.js",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/addon/components/tree-graph.js",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/addon/d3/packed-bubble-mixin.js",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/addon/components/tree-map.js",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/public/demo-data/likard.json",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/public/demo-data/diverging-bar-chart-model.json",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/addon/d3/scatter-plot-mixin.js",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/addon/components/scatter-plot.js",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/.travis.yml",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/addon/components/donut-chart.js",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/addon/d3/tree-graph-mixin.js",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/addon/components/packed-bubble.js",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/addon/components/line-chart.js",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/public/demo-data/simple-flare.json",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/addon/d3/tree-map-mixin.js",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/tests/integration/components/line-chart-test.js",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/tests/integration/components/stacked-area-chart-test.js",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/vendor/ui-chart/ui-chart.css",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/addon/components/stacked-area-chart.js",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/public/demo-data/flare.json",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/addon/d3/stacked-area.js",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/addon/mixins/stacked-area.js",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/public/demo-data/donut-chart-model2.json",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/public/demo-data/donut-chart.json",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/addon/templates/components/donut-chart.hbs",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/public/demo-data/donut-chart-model.json",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/index.js",
+		"/Users/Ken/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/tests/dummy/app/templates/application.hbs",
+		"/Users/Ken/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/package.json",
+		"/Users/Ken/Library/Application Support/Sublime Text 3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/bower.json",
+		"/Volumes/PEGASUS/repos/mine/ui-chart/ember-cli-build.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/index.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/controllers/demo-selectable-list.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/templates/demo-selectable-list.hbs",
+		"/Volumes/PEGASUS/repos/mine/ui-list/addon/templates/components/ui-item.hbs",
+		"/Volumes/PEGASUS/repos/mine/ui-list/addon/mixins/sortable-item.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/addon/components/ui-sortable-item.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/templates/demo-item.hbs",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/templates/demo-sortable-item.hbs",
+		"/Volumes/PEGASUS/repos/mine/ui-list/package.json",
+		"/Volumes/PEGASUS/repos/mine/ui-list/addon/components/ui-selectable-list.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/vendor/ui-list/ui-list-sorting.css",
+		"/Volumes/PEGASUS/repos/mine/ui-list/addon/components/ui-aspect-handle.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/addon/mixins/shared-item-mixin.js",
+		"/private/var/folders/zb/65z13rv940v04234jn3dx0140000gn/T/com.TechSmith.Snagit/2015-08-27_11-11-47_03.png",
+		"/Volumes/PEGASUS/repos/mine/ui-list/vendor/ui-list/ui-list.css",
+		"/Volumes/PEGASUS/repos/mine/ui-list/addon/components/ui-list.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/controllers/demo-list.js",
+		"/Volumes/PEGASUS/repos/public/sortable.sublime-project",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/unit/components/ui-item-test.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/app/__mirage__/config.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/app/__mirage__/scenarios/default.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/mirage/config.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/addon/mixins/heritable-properties.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/templates/demo-list.hbs",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/controllers/demo-sortable-list.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/addon/templates/components/ui-list.hbs",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/router.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/templates/index.hbs",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/templates/application.hbs",
+		"/Volumes/PEGASUS/repos/mine/ui-list/addon/mixins/shared-list-mixin.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/controllers/ui-list.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/templates/ui-list.hbs",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/config/environment.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/integration/components/ui-list-test.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/addon/mixins/list-messaging.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/unit/mixins/list-messaging-test.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/templates/ui-selectable-list.hbs",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/unit/components/ui-list-test.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/addon/components/ui-item.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/unit/mixins/heritable-properties-test.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/controllers/ui-selectable-list.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/vendor/ui-list/ui-list-simple.css",
+		"/Volumes/PEGASUS/repos/mine/ui-list/vendor/ui-list/ui-list-plus.css",
+		"/Volumes/PEGASUS/repos/mine/ui-list/vendor/ui-list/ui-list-flat.css",
+		"/Volumes/PEGASUS/repos/mine/ui-list/addon/mixins/sortable-list.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/bower.json",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/models/thing.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/app/mirage/config.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/mirage/fixtures/thing.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/mirage/factories/activity.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/app/mirage/factories/activity.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/app/mirage/scenarios/default.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/.watchmanconfig",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/routes/application.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/README.md",
+		"/Volumes/PEGASUS/repos/mine/ui-list/ember-cli-build.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/.codeclimate.yml",
+		"/Users/Ken/Library/Application Support/Sublime Text 3/Packages/User/codeclimate.sublime-snippet",
+		"/Volumes/PEGASUS/repos/mine/ui-list/codeclimate.yml",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/unit/mixins/sortable-list-test.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/unit/mixins/sortable-item-test.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/unit/components/ui-sortable-item-test.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/templates/demo-sortable-list.hbs",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/unit/components/ui-aspect-handle-test.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/templates/ui-item.hbs",
+		"/Volumes/PEGASUS/repos/mine/ui-list/Brocfile.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/addon/components/ui-sortable-list.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/addon/templates/components/ui-aspect-handle.hbs",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/templates/demo-aspect-handle.hbs",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/styles/app.css",
+		"/Volumes/PEGASUS/repos/mine/ui-list/config/ember-try.js",
+		"/Volumes/PEGASUS/repos/mine/ui-list/.travis.yml",
+		"/Volumes/PEGASUS/repos/mine/ui-list/tests/dummy/app/controllers/application.js",
+		"/Users/Ken/Library/Application Support/Sublime Text 3/Packages/User/npm_version.sublime-snippet",
+		"/Volumes/PEGASUS/repos/mine/ui-list/ui-list.sublime-project",
+		"/Volumes/PEGASUS/repos/mine/ui-list/sublime-project.json",
+		"/Volumes/PEGASUS/repos/mine/api/data/bucketData/Uoms.json",
+		"/Users/Ken/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Volumes/PEGASUS/repos/mine/api/src/LG/Models/UserProfile.php",
+		"/Volumes/PEGASUS/repos/mine/api/src/LG/API/UOMs.php",
+		"/Volumes/PEGASUS/repos/mine/api/tests/.coverage/css/style.css",
+		"/Volumes/PEGASUS/repos/mine/api/src/LG/Structure/Lists/Markers.php",
+		"/Users/Ken/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/var/folders/zb/65z13rv940v04234jn3dx0140000gn/T/com.TechSmith.Snagit/2015-05-22_23-32-23.png",
+		"/Users/Ken/Library/Application Support/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/Volumes/PEGASUS/repos/mine/trainer/app/templates/clients/client/goals.hbs",
+		"/Volumes/PEGASUS/repos/mine/trainer/app/templates/sessions.hbs",
+		"/Volumes/PEGASUS/repos/mine/trainer/app/controllers/workouts/workout.js",
+		"/Volumes/PEGASUS/repos/mine/trainer/trainer.sublime-project",
+		"/Users/Ken/sublime/ui-list.sublime-project",
+		"/Users/Ken/reference_data.json",
+		"/Volumes/PEGASUS/repos/mine/ui-list/config/environment.js",
+		"/Users/Ken/sublime/sortable.sublime-project"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"<open files>",
+			"",
+			"*.hbs",
+			"*.hb",
+			"*.hbs",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"console",
+			"xStart",
+			"svg",
+			"bodyG",
+			"data",
+			"_margin",
+			" margin",
+			"d.N",
+			"axesG",
+			"map",
+			"largeFlare",
+			"(\"",
+			"update",
+			"arc(",
+			"var",
+			"data",
+			"ction",
+			"fun",
+			"region",
+			"pie",
+			"resultset",
+			"key",
+			"function",
+			"region",
+			"data",
+			"propsInternal",
+			"propsApi",
+			"propsAll",
+			"path",
+			"test",
+			"console.log",
+			"findRegistered",
+			"deselectItem",
+			"preventD",
+			"index",
+			"10px",
+			".two-lined-message",
+			"\\.two-lined-message",
+			"two-lined-message",
+			"twoLinedMessage",
+			"left-pane",
+			"pane-center",
+			"paneCenter",
+			"<div class=\"hpad\"></div>",
+			"paneClick",
+			"options",
+			"commit",
+			"commit:",
+			"Style",
+			"style",
+			"tellGroup",
+			"groupDirection",
+			"_startDrag",
+			"received",
+			"_tellGroup",
+			"_tellList",
+			"_actionEffects",
+			"_tell",
+			"list",
+			"group.",
+			"Group",
+			"group",
+			"package",
+			"transitionend",
+			"style",
+			"is-dragging",
+			"ui",
+			"UiSortableItem",
+			"didInsertElement",
+			"eval of",
+			"set",
+			"defaultSensativities",
+			"store.push",
+			"label",
+			"code",
+			"ui",
+			"listModd",
+			"code",
+			"HeritableProperties",
+			"all",
+			"mood",
+			"SharedItem",
+			"style",
+			"listPropr",
+			"listProperty",
+			"style",
+			"listProp",
+			"style",
+			"_styleDependencies",
+			"register",
+			"_listProperties",
+			"style(\\W)",
+			"style\\W",
+			"_style",
+			"style",
+			"style-",
+			"style",
+			"skin",
+			"style",
+			"has",
+			"selected",
+			"paneClick",
+			"emberItems",
+			".push(",
+			"action === ",
+			"didInsertElement",
+			"_icon",
+			"keys,",
+			"currentState",
+			"observer",
+			"Natural",
+			"sortOrders",
+			"store.push",
+			"store.all",
+			"didInsertElement",
+			"keys,",
+			"typeOf, keys",
+			"Ember.keys",
+			"' selected=",
+			"ui-buttons cardinality",
+			"ui-button cardinality",
+			"ui-buttons cardinality",
+			"ui-buttons button",
+			"ui-button button",
+			"ui-button buttons=",
+			"ui-button-radio choices=",
+			"ui-button-radio",
+			" ui-bs-button-choice"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" _margin",
+			".has-sub-heading",
+			"listDirection",
+			"skin\\1",
+			"skin\\W",
+			"skin",
+			"' value=",
+			"ui-buttons cardinality",
+			"ui-button cardinality='1:1' buttons=",
+			"_tellList",
+			"register",
+			"_tellGroup",
+			"route"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Volumes/PEGASUS/repos/mine/ui-chart/addon/d3/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 956,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								956,
+								956
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								115,
+								115
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"__vi_external_disable": true,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"default_dir": "/Volumes/PEGASUS/repos/mine/ember-lifecycle-hooks",
+							"draw_white_space": "none",
+							"git_repo": "/Volumes/PEGASUS/repos/mine/ui-chart",
+							"git_status": true,
+							"git_view": "status",
+							"syntax": "Packages/SublimeGit/syntax/SublimeGit Status.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 143.0
+	},
+	"output.git-flow-feature-finish":
+	{
+		"height": 114.0
+	},
+	"output.git-flow-feature-start":
+	{
+		"height": 120.0
+	},
+	"output.git-flow-release-finish":
+	{
+		"height": 114.0
+	},
+	"output.git-flow-release-start":
+	{
+		"height": 114.0
+	},
+	"output.git-push":
+	{
+		"height": 110.0
+	},
+	"pinned_build_system": "",
+	"project": "ember-lifecycle.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"treegr",
+				"addon/components/tree-graph.js"
+			],
+			[
+				"bubbmix",
+				"addon/d3/packed-bubble-mixin.js"
+			],
+			[
+				"travi",
+				".travis.yml"
+			],
+			[
+				"css",
+				"vendor/ui-chart/ui-chart.css"
+			],
+			[
+				"base",
+				"addon/components/base-chart.js"
+			],
+			[
+				"line",
+				"addon/components/line-chart.js"
+			],
+			[
+				"integrlin",
+				"tests/integration/components/line-chart-test.js"
+			],
+			[
+				"integra",
+				"tests/integration/components/stacked-area-chart-test.js"
+			],
+			[
+				"intelie",
+				"tests/integration/components/line-chart-test.js"
+			],
+			[
+				"don",
+				"addon/components/donut-chart.js"
+			],
+			[
+				"stack",
+				"addon/components/stacked-area-chart.js"
+			],
+			[
+				"packbub",
+				"addon/components/packed-bubble.js"
+			],
+			[
+				"linmix",
+				"addon/d3/line-chart-mixin.js"
+			],
+			[
+				"appli",
+				"tests/dummy/app/templates/application.hbs"
+			],
+			[
+				"tree",
+				"addon/components/tree-map.js"
+			],
+			[
+				"donhbs",
+				"addon/templates/components/donut-chart.hbs"
+			],
+			[
+				"doncha",
+				"public/demo-data/donut-chart.json"
+			],
+			[
+				"donhb",
+				"addon/templates/components/donut-chart.hbs"
+			],
+			[
+				"ine",
+				"index.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"donuhb",
+				"addon/templates/components/donut-chart.hbs"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"ember",
+				"ember-cli-build.js"
+			],
+			[
+				"applica",
+				"tests/dummy/app/templates/application.hbs"
+			],
+			[
+				"demoselhbs",
+				"tests/dummy/app/templates/demo-selectable-list.hbs"
+			],
+			[
+				"demosele",
+				"tests/dummy/app/controllers/demo-selectable-list.js"
+			],
+			[
+				"listmess",
+				"addon/mixins/list-messaging.js"
+			],
+			[
+				"uilistjs",
+				"addon/components/ui-list.js"
+			],
+			[
+				"demosortitm",
+				"tests/dummy/app/templates/demo-sortable-item.hbs"
+			],
+			[
+				"uisor",
+				"addon/components/ui-sortable-item.js"
+			],
+			[
+				"soritm",
+				"addon/mixins/sortable-item.js"
+			],
+			[
+				"sortitemjs",
+				"addon/mixins/sortable-item.js"
+			],
+			[
+				"sorcss",
+				"vendor/ui-list/ui-list-sorting.css"
+			],
+			[
+				"sharei",
+				"addon/mixins/shared-item-mixin.js"
+			],
+			[
+				"uiitemjs",
+				"addon/components/ui-item.js"
+			],
+			[
+				"demoitm",
+				"tests/dummy/app/templates/demo-item.hbs"
+			],
+			[
+				"uilistcss",
+				"vendor/ui-list/ui-list.css"
+			],
+			[
+				"itemhbs",
+				"addon/templates/components/ui-item.hbs"
+			],
+			[
+				"demosel",
+				"tests/dummy/app/controllers/demo-selectable-list.js"
+			],
+			[
+				"shari",
+				"addon/mixins/shared-item-mixin.js"
+			],
+			[
+				"demoitem",
+				"tests/dummy/app/templates/demo-item.hbs"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"demosellist",
+				"tests/dummy/app/controllers/demo-selectable-list.js"
+			],
+			[
+				"demosortli",
+				"tests/dummy/app/controllers/demo-sortable-list.js"
+			],
+			[
+				"han",
+				"addon/components/ui-aspect-handle.js"
+			],
+			[
+				"uilist",
+				"addon/components/ui-list.js"
+			],
+			[
+				"demostolihb",
+				"tests/dummy/app/templates/demo-sortable-list.hbs"
+			],
+			[
+				"demosort",
+				"tests/dummy/app/templates/demo-sortable-item.hbs"
+			],
+			[
+				"demolistjs",
+				"tests/dummy/app/controllers/demo-list.js"
+			],
+			[
+				"demolisthbs",
+				"tests/dummy/app/templates/demo-list.hbs"
+			],
+			[
+				"demoli",
+				"tests/dummy/app/controllers/demo-list.js"
+			],
+			[
+				"uiitemtest",
+				"tests/unit/components/ui-item-test.js"
+			],
+			[
+				"uiitmhbs",
+				"addon/templates/components/ui-item.hbs"
+			],
+			[
+				"listhbs",
+				"addon/templates/components/ui-list.hbs"
+			],
+			[
+				"demolisthb",
+				"tests/dummy/app/templates/demo-list.hbs"
+			],
+			[
+				"demolist",
+				"tests/dummy/app/controllers/demo-list.js"
+			],
+			[
+				"index",
+				"index.js"
+			],
+			[
+				"indexhbs",
+				"tests/dummy/app/templates/index.hbs"
+			],
+			[
+				"router",
+				"tests/dummy/app/router.js"
+			],
+			[
+				"uilisthbs",
+				"addon/templates/components/ui-list.hbs"
+			],
+			[
+				"listmesstest",
+				"tests/unit/mixins/list-messaging-test.js"
+			],
+			[
+				"ui-listhbs",
+				"addon/templates/components/ui-list.hbs"
+			],
+			[
+				"uilisttest",
+				"tests/integration/components/ui-list-test.js"
+			],
+			[
+				"componuilistt",
+				"tests/unit/components/ui-list-test.js"
+			],
+			[
+				"hertest",
+				"tests/unit/mixins/heritable-properties-test.js"
+			],
+			[
+				"herti",
+				"addon/mixins/heritable-properties.js"
+			],
+			[
+				"sharelist",
+				"addon/mixins/shared-list-mixin.js"
+			],
+			[
+				"env",
+				"tests/dummy/config/environment.js"
+			],
+			[
+				"selecthbs",
+				"tests/dummy/app/templates/ui-selectable-list.hbs"
+			],
+			[
+				"wat",
+				".watchmanconfig"
+			],
+			[
+				"sharedi",
+				"addon/mixins/shared-item-mixin.js"
+			],
+			[
+				"uiitem",
+				"addon/components/ui-item.js"
+			],
+			[
+				"shared",
+				"addon/mixins/shared-item-mixin.js"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"cod",
+				".codeclimate.yml"
+			],
+			[
+				"code",
+				"codeclimate.yml"
+			],
+			[
+				"sortableitem",
+				"tests/unit/components/ui-sortable-item-test.js"
+			],
+			[
+				"sortable",
+				"tests/unit/mixins/sortable-item-test.js"
+			],
+			[
+				"unituilist",
+				"tests/unit/components/ui-list-test.js"
+			],
+			[
+				"unituisort",
+				"tests/unit/components/ui-sortable-item-test.js"
+			],
+			[
+				"aspecthandjs",
+				"tests/unit/components/ui-aspect-handle-test.js"
+			],
+			[
+				"contrselec",
+				"tests/dummy/app/controllers/ui-selectable-list.js"
+			],
+			[
+				"controlsortable",
+				"tests/dummy/app/controllers/demo-sortable-list.js"
+			],
+			[
+				"controleruilist",
+				"tests/dummy/app/controllers/ui-list.js"
+			],
+			[
+				"selec",
+				"tests/dummy/app/templates/ui-selectable-list.hbs"
+			],
+			[
+				"cli",
+				"ember-cli-build.js"
+			],
+			[
+				"bi",
+				"ember-cli-build.js"
+			],
+			[
+				"broc",
+				"Brocfile.js"
+			],
+			[
+				"bowr",
+				"bower.json"
+			],
+			[
+				"tests/unit",
+				"tests/unit/components/ui-item-test.js"
+			],
+			[
+				"uihan",
+				"addon/components/ui-aspect-handle.js"
+			],
+			[
+				"shareitem",
+				"addon/mixins/shared-item-mixin.js"
+			],
+			[
+				"uiitemhbs",
+				"addon/templates/components/ui-item.hbs"
+			],
+			[
+				"handlhbs",
+				"addon/templates/components/ui-aspect-handle.hbs"
+			],
+			[
+				"demosor",
+				"tests/dummy/app/controllers/demo-sortable-list.js"
+			],
+			[
+				"handle",
+				"addon/components/ui-aspect-handle.js"
+			],
+			[
+				"indhbs",
+				"tests/dummy/app/templates/index.hbs"
+			],
+			[
+				"sortablitem",
+				"addon/mixins/sortable-item.js"
+			],
+			[
+				"route",
+				"tests/dummy/app/router.js"
+			],
+			[
+				"indehb",
+				"tests/dummy/app/templates/index.hbs"
+			],
+			[
+				"uisorit",
+				"addon/components/ui-sortable-item.js"
+			],
+			[
+				"sor",
+				"addon/components/ui-sortable-list.js"
+			],
+			[
+				"sortlist",
+				"addon/mixins/sortable-list.js"
+			],
+			[
+				"flast",
+				"vendor/ui-list/ui-list-flat.css"
+			],
+			[
+				"app",
+				"tests/dummy/app/styles/app.css"
+			],
+			[
+				"application",
+				"tests/dummy/app/templates/application.hbs"
+			],
+			[
+				"sel",
+				"addon/components/ui-selectable-list.js"
+			],
+			[
+				"trav",
+				".travis.yml"
+			],
+			[
+				"try",
+				"config/ember-try.js"
+			],
+			[
+				"ui-itemhbs",
+				"tests/dummy/app/templates/ui-item.hbs"
+			],
+			[
+				"uiitemj",
+				"addon/components/ui-item.js"
+			],
+			[
+				"dummlisthb",
+				"tests/dummy/app/templates/ui-list.hbs"
+			],
+			[
+				"dummyitem",
+				"tests/dummy/app/templates/ui-item.hbs"
+			],
+			[
+				"applichb",
+				"tests/dummy/app/templates/application.hbs"
+			],
+			[
+				"indexhb",
+				"tests/dummy/app/templates/index.hbs"
+			],
+			[
+				"applic",
+				"tests/dummy/app/controllers/application.js"
+			],
+			[
+				"projec",
+				"sublime-project.json"
+			],
+			[
+				".json",
+				"data/bucketData/Uoms.json"
+			],
+			[
+				"apimarker",
+				"src/LG/API/Markers.php"
+			],
+			[
+				"userprofile",
+				"src/LG/Models/UserProfile.php"
+			],
+			[
+				".php",
+				"src/LG/API/UOMs.php"
+			],
+			[
+				".css",
+				"tests/.coverage/css/style.css"
+			],
+			[
+				"markers",
+				"src/LG/Structure/Lists/Markers.php"
+			],
+			[
+				"sessionhbs",
+				"app/templates/clients/client/sessions.hbs"
+			],
+			[
+				"sesssions",
+				"app/controllers/clients/client/sessions.js"
+			],
+			[
+				"listjs",
+				"addon/components/ui-list.js"
+			],
+			[
+				"uihbs",
+				"addon/templates/components/ui-list.hbs"
+			],
+			[
+				"sub",
+				"sublime-project.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Volumes/PEGASUS/repos/mine/ui-slider/ui-slider.sublime-project"
+			],
+			[
+				"tra",
+				"/Volumes/PEGASUS/repos/mine/trainer/trainer.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 27.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 955.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 239.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+<head>
+<title>View Specific?</title>
+</head>
+<body>
+<outline text="View Specific?"></outline>
+<outline text="No longer in Glimmer?"></outline>
+<outline text="Ember LifeCycle Hooks"><outline text="becameVisible"></outline>
+<outline text="becameHidden"></outline>
+<outline text="willInsertElement"></outline>
+<outline text="didInsertElement"></outline>
+<outline text="init"></outline>
+<outline text="Glimmer"><outline text="First Render"><outline text="didInitAttrs"></outline>
+<outline text="didReceiveAttrs"></outline>
+<outline text="willRender"></outline>
+<outline text="didInsertElement"></outline>
+<outline text="didRender"></outline>
+</outline>
+<outline text="Re-Renders"><outline text="didUpdateAttrs"></outline>
+<outline text="didReceiveAttrs"></outline>
+<outline text="willUpdate"></outline>
+<outline text="willRender"></outline>
+<outline text="didUpdate"></outline>
+<outline text="didRender"></outline>
+</outline>
+</outline>
+<outline text="willClearRender"></outline>
+<outline text="willDestroyElement"></outline>
+</outline>
+</body>
+</opml>
